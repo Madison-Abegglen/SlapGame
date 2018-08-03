@@ -13,16 +13,39 @@
 
 <body>
     <div class="container-fluid">
+        <!-- Header -->
         <div class="row">
-            <!-- Target -->
+            <div class="col-12">
+                <h1 class="text-center">Dungeoneers</h1>
+            </div>
+            <div class="col-sm-12 col-md-8 offset-md-2 d-flex justify-content-around">
+                <h4>Choose Difficulty:</h4>
+                <button onclick="difficulty(gnoll)">Easy</button>
+                <button onclick="difficulty(knight)">Intermediate</button>
+                <button onclick="difficulty(ghost)">Hard</button>
+            </div>
+        </div>
+        <!-- Target -->
+        <div class="row">
             <div class="col">
-                <img src="images/wraith.png" alt="target" width="200px">
+                <h4>
+                    <span id="name">__</span>
+                </h4>
+                <img src="" alt="">
+                <h4>Health:
+                    <span id="health">__</span>
+                </h4>
+                <h4>Hits:
+                    <span id="hits">__</span>
+                </h4>
             </div>
         </div>
         <div class="row">
             <!-- Footer -->
-            <div class="col">
-                <button class="btn btn-important">Slap!</button>
+            <div class="col-12">
+                <button class="btn btn-success" onclick="slap()">Royal Slap!</button>
+                <button class="btn btn-success" onclick="punch()">Hero Punch!</button>
+                <button class="btn btn-success" onclick="stab()">Mighty Stab!</button>
             </div>
         </div>
     </div>
