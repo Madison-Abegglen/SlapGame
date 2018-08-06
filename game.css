@@ -1,7 +1,31 @@
-body {
-    background-color: rgb(89, 109, 109);
+.bg-cool {
+    background: linear-gradient(rgb(99, 94, 94), black);
+    padding: 150px;
+}
+
+.text-large {
+    font-size: 80px;
+}
+
+.mb-20 {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.mt-10 {
+    margin-top: 20px;
 }
 
 .text-white {
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+#profilePic {
+    border-radius: 30%;
+    margin-bottom: 40px;
 }

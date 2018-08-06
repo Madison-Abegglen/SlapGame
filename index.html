@@ -12,16 +12,16 @@
 </head>
 
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid bg-cool">
         <!-- Header -->
         <div class="row">
-            <div class="col-12">
-                <h1 class="text-center text-white">Dungeon Dweller</h1>
+            <div class="col-12 title">
+                <h1 class="text-center text-white text-large">Dungeon Dweller</h1>
             </div>
             <div class="col-sm-12 col-md-8 offset-md-2 d-flex justify-content-around">
                 <h4 class="text-white">Make things Interesting:</h4>
             </div>
-            <div class="col-sm-12 col-md-8 offset-md-2 d-flex justify-content-around" id="items">
+            <div class="col-sm-12 col-md-8 offset-md-2 d-flex justify-content-around mb-20" id="items">
                 <button class="btn btn-primary" onclick="giveFire()">Burn!</button>
                 <button class="btn btn-primary" onclick="givePoison()">Poison!</button>
                 <button class="btn btn-primary" onclick="giveBleeding()">Cut em!</button>
@@ -51,7 +51,7 @@
                 <button class="btn btn-success" onclick="punch()" id="punch">Hero Punch!</button>
                 <button class="btn btn-success" onclick="stab()" id="stab">Mighty Stab!</button>
             </div>
-            <div class="col-sm-12 d-flex justify-content-center">
+            <div class="col-sm-12 d-flex justify-content-center mt-10">
                 <button class="btn btn-danger" onclick="reset()">Restart</button>
             </div>
         </div>
