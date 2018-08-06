@@ -1,6 +1,6 @@
 function update() {
-    if (health < 0) {
-        health = 0;
+    if (target.health < 0) {
+        target.health = 0;
         document.getElementById('slap');
         document.getElementById('punch');
         document.getElementById('stab');
