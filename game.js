@@ -8,6 +8,9 @@ function update() {
     document.getElementById('health').innerText = target.health;
     document.getElementById('hits').innerText = target.hits;
     document.getElementById('name').innerText = target.name;
+    if (target.health <= 0) {
+        document.getElementById('alert-death').showModal();
+    }
 }
 
 let items = {
@@ -70,6 +73,10 @@ function stab() {
     target.health -= 10;
     target.hits += 1;
     update()
+}
+
+function alertDeath() {
+    alert("Caaarl, that kills people!")
 }
 
 update()
